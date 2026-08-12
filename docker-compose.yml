@@ -1,1 +1,12 @@
+version: '3.8'
 
+services:
+  hr_agent:
+    build: .
+    container_name: hr_agent_service
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}
+    volumes:
+      - .:/app
+      - ./hr_checkpoints.db:/app/hr_checkpoints.db
