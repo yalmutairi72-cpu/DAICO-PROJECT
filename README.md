@@ -25,4 +25,7 @@ This system is built using **LangGraph** to manage state, routing, and looping.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run locally to see the executed logs and failure/security paths: 
    ```bash
+
+SDAIA Academy Link: https://github.com/SDAIAAcademy
+   
    python agent.py
